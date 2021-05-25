@@ -13,7 +13,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: white solid 1px;
     width: 246px;
     height: 70px;
 }
@@ -23,14 +22,12 @@
     height: 60px;
     background-color: white;
     color: #05336B;
-    padding-top: 10px;
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
-
+    padding-left: 3px;
 }
 
 .ibm-tag {
-    border: white solid 1px;
     color: white;
     width: 150px;
     margin-left: 10px;
@@ -42,7 +39,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: solid magenta 1px;
 }
 
 .search-box {
@@ -52,12 +48,10 @@
     background-color: #375C89;
     display: flex;
     align-items: center;
-    border: solid 1px orange;
 }
 
 .search-text {
     color: white;
-    border: violet 1px solid;
     width: 380px;
     height: 38px;
     text-align: center;
@@ -69,7 +63,6 @@
 .search-icon {
     width: 38px;
     height: 38px;
-    border: solid green 1px;
     margin-right: 5px;
     padding-top: 4px;
 }
@@ -79,21 +72,18 @@
     height: 41px;
     display: flex;
     align-items: center;
-    border: solid teal 1px;
     justify-content: space-between;
 }
 
 .unit-box {
     width: 120px;
     height: 41px;
-    border: red 1px solid;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .unit-icon {
-    border: orange solid 1px;
     width: 23.8px;
     height: 23.6px;
 }
@@ -123,7 +113,6 @@
     border-radius: 20px;
     width: 90px;
     height: 26px;
-    border: solid yellow 1px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -142,7 +131,6 @@
     padding-bottom: 5px;
     width: 40px;
     height: 26px;
-    border: cyan solid 1px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -156,14 +144,59 @@
     background-color: white;
 }
 
-.location-bar {
+.current-bar {
     width: 100%;
     height: 40px;
     background-color: #375C89;
 }
 
-.forecast-bar {
+.current-weather {
+    width: 299px;
+    height: 40px;
+    border-right: rgba(255, 255, 255, 0.432) solid 1px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.current-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location {
+    margin: 5px;
+}
+
+.location-text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cat-bar {
     width: 100%;
     height: 40px;
     background-color: #031F40;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.cat {
+    color: white;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
