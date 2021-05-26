@@ -195,6 +195,15 @@ body {
     font-size: 18px;
 }
 
+.cat:hover {
+    color: white;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-bottom: 2px white solid;
+    cursor: pointer;
+}
+
 .more-forecasts {
     display: flex;
     justify-content: stretch;
